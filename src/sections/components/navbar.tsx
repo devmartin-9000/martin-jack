@@ -28,7 +28,7 @@ const Navbar = () => {
 					/>
 					<NavItem icon={<House size={18} />} label="Home" />
 					<NavItem icon={<Blocks size={18} />} label="Projects" />
-					<NavItem icon={<Wrench size={18} />} label="Tech Stack" />
+					<NavItem icon={<Wrench size={18} />} label="Skills" />
 					<NavItem icon={<MessagesSquare size={18} />} label="Let's Chat" />
 				</div>
 			</div>

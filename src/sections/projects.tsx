@@ -1,4 +1,4 @@
-import { Blocks, CirclePowerIcon, Code2Icon } from "lucide-react";
+import { ArrowRightCircleIcon, Blocks, CirclePowerIcon, Code2Icon } from "lucide-react";
 
 const projects = [
 	{
@@ -49,18 +49,22 @@ const Projects = () => {
 	return (
 		<div className="py-10 text-center flex flex-col items-center min-h-screen bg-gradient-to-t from-blue-500 via-background to-background">
 			{/* Section Title */}
-			<div className="space-y-2">
-                <h1 className="flex text-center justify-center items-center gap-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
-                    <Blocks size={40} />
+			<div className="space-y-4">
+				<h1 className="flex text-center justify-center items-center gap-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+					<Blocks
+						className="p-3 bg-background/40 border-3 border-primary rounded-sm"
+						size={80}
+					/>
 					PROJECTS
 				</h1>
-				<p className="text-md text-muted-foreground">
-					Take a look into some of my most notable work
+				<p className="items-center gap-2 flex text-md p-2 border-r-3 text-center border-b-3 rounded-br-xl shadow-blue-100 text-primary/80">
+					<ArrowRightCircleIcon />
+					view my most recent work
 				</p>
 			</div>
 
 			{/* Grid */}
-			<div className="grid mt-10 gap-6 w-full max-w-6xl px-6 sm:grid-cols-2 lg:grid-cols-3">
+			<div className="grid mt-10 gap-6 w-full max-w-6xl px-4 sm:grid-cols-2 lg:grid-cols-3">
 				{projects.map((project, idx) => (
 					<div
 						key={idx}

@@ -195,3 +195,17 @@ body {
   border-right: 2px solid currentColor;
   animation: typing 5s steps(23) infinite, blink 0.7s infinite;
 }
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}

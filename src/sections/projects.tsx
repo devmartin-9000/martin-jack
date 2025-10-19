@@ -64,7 +64,7 @@ const Projects = () => {
 			</div>
 
 			{/* Grid */}
-			<div className="grid mt-10 gap-6 w-full max-w-6xl px-4 sm:grid-cols-2 lg:grid-cols-3">
+			<div className="grid mt-10 gap-6 w-full max-w-7xl px-2 sm:grid-cols-2 lg:grid-cols-3">
 				{projects.map((project, idx) => (
 					<div
 						key={idx}

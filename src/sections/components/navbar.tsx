@@ -7,7 +7,7 @@ import React from "react";
 const Navbar = () => {
 	return (
 		<nav className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full px-4 sm:px-6 py-11 sm:py-15 flex justify-between items-center bg-background/1 backdrop-blur-md shadow-sm">
-			<div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-85 sm:w-full max-w-7xl px-4 sm:px-6 py-1 sm:py-4 flex justify-between items-center bg-background/50 backdrop-blur-sm border border-background/10 shadow-md rounded-lg">
+			<div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-85 sm:w-180 md:w-full max-w-7xl px-3 sm:px-6 py-1 sm:py-4 flex justify-between items-center bg-background/50 backdrop-blur-sm border border-background/10 shadow-md rounded-lg">
 				{/* Logo + Typing Text */}
 				<div className="ml-[-7px] flex items-center space-x-2 overflow-hidden">
 					<img
@@ -21,7 +21,7 @@ const Navbar = () => {
 				</div>
 
 				{/* Nav Links - hidden on mobile */}
-				<div className="hidden sm:flex gap-2 bg-background/30 rounded-full px-4 py-2 shadow-inner backdrop-blur-sm">
+				<div className="hidden sm:hidden md:hidden lg:flex gap-2 bg-background/30 rounded-full px-4 py-2 shadow-inner backdrop-blur-sm">
 					<NavItem
 						icon={<Moon size={18} />}
 						onClick={() => document.documentElement.classList.toggle("dark")}

@@ -31,7 +31,7 @@ const developmentSkills = [
 const developmentTools = [
 	{ tool: "Postman", logo: "./assets/postman.svg" },
 	{ tool: "Figma", logo: "./assets/figma.svg" },
-	{ tool: "Wordpress", logo: "./assets/wordpress.svg" },
+	{ tool: "WordPress", logo: "./assets/wordpress.svg" },
 	{ tool: "DevTools", logo: "./assets/chrome.svg" },
 	{ tool: "Jira", logo: "./assets/jira.svg" },
 ];
@@ -40,7 +40,7 @@ const otherTools = [
 	{ tool: "Convex", logo: "./assets/convex.svg" },
 	{ tool: "Supabase", logo: "./assets/supabase.svg" },
 	{ tool: "Vercel", logo: "./assets/vercel.svg" },
-	{ tool: "NginX", logo: "./assets/nginx.svg" },
+	{ tool: "Nginx", logo: "./assets/nginx.svg" },
 	{ tool: "Firebase", logo: "./assets/firebase.svg" },
 ];
 
@@ -113,7 +113,7 @@ const Skills = () => {
 											className="transform hover:-translate-y-1 transition duration-200 ease-out cursor-pointer rounded-lg border-tr shadow-lg dark:bg-background/80 bg-background/50 backdrop-blur-sm"
 										>
 											<div className="p-1 space-y-4 text-center">
-												<h1 className="flex justify-left items-center text-primary/80 gap-2 text-xs sm:gap-4 sm:text-sm font-semibold">
+												<h1 className="flex justify-start items-center text-primary/80 gap-2 text-xs sm:gap-4 sm:text-sm font-semibold">
 													<div className="h-10 w-10 py-2 px-1.5 flex items-center justify-center border border-primary/25 dark:bg-primary/10 rounded-tl-2xl rounded-bl-2xl">
 														<img
 															src={developmentTools.logo}
